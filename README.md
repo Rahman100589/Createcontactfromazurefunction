@@ -41,8 +41,8 @@ namespace CreateContactfromAzurefunction
             var _contactid = new Guid();
             try
             {
-                string _clientId = "e69c80b6-615d-4c4f-97c5-88c9306e1aae";
-                string _clientSecret = "sPZ8Q~152D_aVvp4TO_Fxem7iTLSP0B4Ab1OOaqI";
+                string _clientId = "xxxxx";
+                string _clientSecret = "xxxxxxx";
                 string _environment = "org18828102.crm5";
                 var _connectionString = @$"Url=https://{_environment}.dynamics.com;AuthType=ClientSecret;ClientId={_clientId}
                 ;ClientSecret={_clientSecret};RequireNewInstance=true";
